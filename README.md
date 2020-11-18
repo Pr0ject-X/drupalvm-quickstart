@@ -1,24 +1,27 @@
 
-# Aten Drupal Project
+# Project-X DrupalVM Quickstart
 
-Starting with a standard foundation for all our Drupal projects is a way for us to maintain/manage our sites in a more consistent manner. The packages installed here should be universal throughout our sites at least 90% of the time.
+Needing to get a Drupal site up and running using DrupalVM within 10 - 15 mins? Well that's why this repo exists, so we can get to work on the important features that the client cares about! 
 
-The packages that should be contained in this project are mainly build tools, project-x plugins, etc. Drupal contributed modules will be installed using the `aten/aten-standard` install profile. Which has already been required in the composer.json.
+## Prerequisite 
+   
+The following applications/packages need to be installed prior.
+ 
+1. [Vagrant](https://www.virtualbox.org/)
+2. [VirtualBox](https://www.vagrantup.com/)
 
 ## Get Started
 
-We're using Project-X to help encapsulate redundancy between common project frameworks such as Drupal. The Project-X CLI utility helps speed up local development and standardize the CI workflow to be consistent among multiple hosting platforms, such as Pantheon, Platform.sh, and Acquia.
-
-Most of the platforms might offer their own solutions to these problems, but our goal is to stick to a consistent structure for all of our Aten Drupal projects, so we can easily abide by the Aten Way.
+We're using Project-X to help encapsulate redundancy between common project frameworks such as Drupal. The Project-X CLI utility helps speed up local development and standardize the CI workflow to be consistent regardless on what CI service you use.
 
 ### Drupal 9
 
 ```
-composer create-project "aten/drupal-recommended-project:9.x-dev" [SITE-NAME]
+composer create-project "Pr0ject-X/drupalvm-quickstart:9.x-dev" [SITE-NAME]
 ```
 
 ### Drupal 8
 
 ```
-composer create-project "aten/drupal-recommended-project:8.x-dev" [SITE-NAME]
+composer create-project "Pr0ject-X/drupalvm-quickstart:8.x-dev" [SITE-NAME]
 ```

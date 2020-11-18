@@ -1,6 +1,6 @@
 {
-    "name": "aten/drupal-recommended-project",
-    "description": "Aten Drupal Project",
+    "name": "Pr0ject-X/drupalvm-quickstart",
+    "description": "Project-X DrupalVM Quickstart",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "prefer-stable": true,
@@ -25,7 +25,6 @@
         }
     ],
     "require": {
-        "aten/aten_standard": "^1.0",
         "composer/installers": "^1.2",
         "drupal/core-recommended": "^9.0",
         "drupal/core-composer-scaffold": "^9.0",
